@@ -1,3 +1,4 @@
+import bpy
 from lwo_helper import load_lwo
 
 
@@ -124,9 +125,10 @@ def test_load_nasa22():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa23():
-    infile = "tests/lwo_nasa/src/GeoTailSAT/GeoTailSAT.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa23():
+        infile = "tests/lwo_nasa/src/GeoTailSAT/GeoTailSAT.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa24():
@@ -144,9 +146,10 @@ def test_load_nasa26():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa27():
-    infile = "tests/lwo_nasa/src/Ice, Cloud, and land Elevation Satellite-2/ICESat-2 Model 2013.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa27():
+        infile = "tests/lwo_nasa/src/Ice, Cloud, and land Elevation Satellite-2/ICESat-2 Model 2013.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa28():
@@ -199,9 +202,10 @@ def test_load_nasa37():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa38():
-    infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/esp3/ESP3.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa38():
+        infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/esp3/ESP3.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa39():
@@ -259,9 +263,10 @@ def test_load_nasa49():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa50():
-    infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/MLM/MLM.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa50():
+        infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/MLM/MLM.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa51():
@@ -329,9 +334,10 @@ def test_load_nasa63():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa64():
-    infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/p5/P5.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa64():
+        infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/p5/P5.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa65():
@@ -414,9 +420,10 @@ def test_load_nasa80():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa81():
-    infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/s5/S5.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa81():
+        infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/s5/S5.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa82():
@@ -434,19 +441,22 @@ def test_load_nasa84():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa85():
-    infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/spdm/SPDM_low.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa85():
+        infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/spdm/SPDM_low.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa86():
-    infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/ssrms/armA.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa86():
+        infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/ssrms/armA.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa87():
-    infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/ssrms/armB.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa87():
+        infile = "tests/lwo_nasa/src/ISS (High Res)/Objects/Modules/ssrms/armB.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa88():
@@ -595,9 +605,10 @@ def test_load_nasa115():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa116():
-    infile = "tests/lwo_nasa/src/POLAR-Combined/POLAR-Combined.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa116():
+        infile = "tests/lwo_nasa/src/POLAR-Combined/POLAR-Combined.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa117():
@@ -615,9 +626,10 @@ def test_load_nasa119():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa120():
-    infile = "tests/lwo_nasa/src/SAC-C/SAC-C-basic.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa120():
+        infile = "tests/lwo_nasa/src/SAC-C/SAC-C-basic.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa121():
@@ -645,9 +657,10 @@ def test_load_nasa125():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa126():
-    infile = "tests/lwo_nasa/src/Solar Sail Concept2/SolarSail-concept2.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa126():
+        infile = "tests/lwo_nasa/src/Solar Sail Concept2/SolarSail-concept2.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa127():
@@ -660,9 +673,12 @@ def test_load_nasa128():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa129():
-    infile = "tests/lwo_nasa/src/STEREO/Stereo-2016-comp.lwo"
-    load_lwo(infile, cancel_search=True)
+# bmesh.ops.triangulate(bm, faces=faces) failes in 2.79b, it is a bug
+# and it is fixed in future revs
+if (2, 81, 0) < bpy.app.version: # 
+    def test_load_nasa129():
+        infile = "tests/lwo_nasa/src/STEREO/Stereo-2016-comp.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa130():
@@ -672,9 +688,10 @@ def test_load_nasa130():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa131():
-    infile = "tests/lwo_nasa/src/Suzaku/AstroE-composite.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa131():
+        infile = "tests/lwo_nasa/src/Suzaku/AstroE-composite.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa132():
@@ -714,9 +731,10 @@ def test_load_nasa138():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa139():
-    infile = "tests/lwo_nasa/src/Voyager (A)/Voyager.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa139():
+        infile = "tests/lwo_nasa/src/Voyager (A)/Voyager.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa140():
@@ -734,9 +752,10 @@ def test_load_nasa142():
     load_lwo(infile, cancel_search=True)
 
 
-def test_load_nasa143():
-    infile = "tests/lwo_nasa/src/WIND/WIND-Main.lwo"
-    load_lwo(infile, cancel_search=True)
+if (2, 78, 0) < bpy.app.version: # 
+    def test_load_nasa143():
+        infile = "tests/lwo_nasa/src/WIND/WIND-Main.lwo"
+        load_lwo(infile, cancel_search=True)
 
 
 def test_load_nasa144():
