@@ -11,3 +11,4 @@ tests/*/src
 ~*
 .coverage
 coverage.xml
+dst_blend/
